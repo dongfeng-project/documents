@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-demo",
+  "version": "0.0.1",
+  "description": "Documents of Dong-Feng project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "view-info": "vuepress view-info docs"
+  },
+  "author": "40huo",
+  "license": "AGPL"
+}
