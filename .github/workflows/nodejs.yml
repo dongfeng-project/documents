@@ -1,4 +1,4 @@
-name: Build
+name: Compile and deploy to GitHub Pages
 
 on:
   push:
@@ -31,6 +31,6 @@ jobs:
           CI: true
       
       - name: Compile and deploy
-        run: ./deploy.sh
+        run: sh ./deploy.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
