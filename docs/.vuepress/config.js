@@ -69,7 +69,7 @@ function getGuideSidebar(groupA, groupB) {
     {
       title: groupB,
       collapsable: false,
-      children: ["frontmatter", "permalinks", "markdown-slot", "global-computed"],
+      // children: ["frontmatter", "permalinks", "markdown-slot", "global-computed"],
     },
   ];
 }
@@ -80,14 +80,14 @@ function getThemeSidebar(groupA, introductionA) {
       title: groupA,
       collapsable: false,
       sidebarDepth: 2,
-      children: [
-        ["", introductionA],
-        "using-a-theme",
-        "writing-a-theme",
-        "option-api",
-        "default-theme-config",
-        "inheritance",
-      ],
+      // children: [
+      //   ["", introductionA],
+      //   "using-a-theme",
+      //   "writing-a-theme",
+      //   "option-api",
+      //   "default-theme-config",
+      //   "inheritance",
+      // ],
     },
   ];
 }
