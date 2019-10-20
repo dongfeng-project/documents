@@ -29,8 +29,3 @@ jobs:
           npm ci
         env:
           CI: true
-      
-      - name: Compile and deploy
-        run: sh ./deploy.sh
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
