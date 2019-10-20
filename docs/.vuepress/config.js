@@ -65,6 +65,13 @@ module.exports = ctx => ({
         delay: 1000,
       },
     ],
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-150419494-1",
+      },
+    ],
+    ["@vuepress/back-to-top"],
   ],
 });
 
