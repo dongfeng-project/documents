@@ -4,7 +4,7 @@ module.exports = ctx => ({
     "/": {
       lang: "zh-CN",
       title: "东风",
-      description: "分布式黑盒漏洞自动化扫描系统",
+      description: "分布式自动化黑盒漏洞扫描系统",
     },
     "/en/": {
       lang: "en-US",
