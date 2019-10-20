@@ -1,4 +1,5 @@
 module.exports = ctx => ({
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
   locales: {
     "/": {
       lang: "zh-CN",
@@ -12,7 +13,10 @@ module.exports = ctx => ({
     },
   },
   themeConfig: {
+    repo: "dongfeng-project/documents",
     smoothScroll: true,
+    editLinks: true,
+    docsDir: "docs",
     locales: {
       "/": {
         label: "简体中文",
@@ -43,6 +47,25 @@ module.exports = ctx => ({
     },
   },
   extraWatchFiles: [".vuepress/nav/en.js", ".vuepress/nav/zh.js"],
+  plugins: [
+    [
+      "vuepress-plugin-clean-urls",
+      {
+        normalSuffix: "/",
+        indexSuffix: "/",
+        notFoundPath: "/404.html",
+      },
+    ],
+    ["vuepress-plugin-mathjax", { target: "svg", macros: { "*": "\\times" } }],
+    "vuepress-plugin-nprogress",
+    [
+      "vuepress-plugin-medium-zoom",
+      {
+        selector: ".my-wrapper .my-img",
+        delay: 1000,
+      },
+    ],
+  ],
 });
 
 function getApiSidebar() {

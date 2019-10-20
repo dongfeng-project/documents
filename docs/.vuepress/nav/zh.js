@@ -53,23 +53,6 @@ module.exports = [
           },
         ],
       },
-      {
-        text: "其他",
-        items: [
-          {
-            text: "从 0.x 迁移",
-            link: "/miscellaneous/migration-guide.html",
-          },
-          {
-            text: "Changelog",
-            link: "https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md",
-          },
-        ],
-      },
     ],
-  },
-  {
-    text: "0.x",
-    link: "https://v0.vuepress.vuejs.org/",
   },
 ];
