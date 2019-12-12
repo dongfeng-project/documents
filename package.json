@@ -16,9 +16,11 @@
     "vuepress-plugin-nprogress": "^1.1.4"
   },
   "devDependencies": {
-    "eslint": "^6.5.1"
+    "eslint": "^6.5.1",
+    "lint-md-cli": "^0.1.1"
   },
   "scripts": {
+    "lint": "lint-md .",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "view-info": "vuepress view-info docs"

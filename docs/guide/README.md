@@ -10,7 +10,7 @@
 - [探测组件 Scout](https://github.com/dongfeng-project/scout)，包含常见的子域名收集、主机存活扫描、端口探测、爬虫等功能
 - [扫描组件 Missile](https://github.com/dongfeng-project/missile)，包含各类主机、Web 漏洞插件
 
-## 如何工作？
+## 如何工作
 
 每一个扫描任务，如端口探测、MySQL 弱口令检测等，都是一个独立的 Celery 任务，可以通过 [Canvas Workflow](https://docs.celeryproject.org/en/latest/userguide/canvas.html) 将多个扫描任务组装成任意的扫描流程，最后将结果提交给 Web 控制面板。
 

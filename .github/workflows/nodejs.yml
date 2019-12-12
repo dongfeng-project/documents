@@ -17,5 +17,7 @@ jobs:
         with:
           node-version: '12.x'
 
-      - name: ESLint
-        uses: stefanoeb/eslint-action@master
+      - name: Markdown lint
+        run: |
+          npm install
+          npm run lint
