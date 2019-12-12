@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: '12.x'
 
-      - name: Run ESLint
-        uses: stefanoeb/eslint-action@1.0.0
+      - name: ESLint
+        uses: hallee/eslint-action@1.0.1
