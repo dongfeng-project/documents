@@ -18,4 +18,4 @@ jobs:
           node-version: '12.x'
 
       - name: ESLint
-        uses: hallee/eslint-action@1.0.1
+        uses: stefanoeb/eslint-action@master
