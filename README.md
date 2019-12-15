@@ -13,7 +13,7 @@ Dong-Feng is a Celery-based distributed black box vulnerability automatic scanne
 
 ## 关于本文档 About Documentation
 
-文档采用 VuePress 生成，通过 Netlify 部署，在线地址 https://docs.dongfeng.40huo.cn/。
+文档采用 VuePress 生成，通过 Netlify 部署，在线地址 [https://docs.dongfeng.40huo.cn/](https://docs.dongfeng.40huo.cn/)。
 
 ## 贡献 Contribution
 
