@@ -7,13 +7,13 @@
 
 东风是一个以 Celery 为基础的分布式黑盒漏洞自动化扫描系统，旨在提供一个支持分布式部署、各个组件松耦合、尽可能覆盖渗透测试全流程的平台，它诞生的初衷是将安全开发工程师从繁杂的任务调度系统开发中解放出来，投入更多精力专注于扫描能力的提升。
 
+文档采用 VuePress 生成，通过 Netlify 部署，在线地址 [https://docs.dongfeng.40huo.cn/](https://docs.dongfeng.40huo.cn/)。
+
 ---
 
 Dong-Feng is a Celery-based distributed black box vulnerability automatic scanner. It aims to provide a platform that supports distributed deployment, loosely coupled components, and covers the entire process of penetration testing as much as possible. It was born with the intention of bringing security development engineers freed from the development of complicated task scheduling systems and invested more energy to focus on the improvement of scanning capabilities.
 
-## 关于本文档 About Documentation
-
-文档采用 VuePress 生成，通过 Netlify 部署，在线地址 [https://docs.dongfeng.40huo.cn/](https://docs.dongfeng.40huo.cn/)。
+The document was generated using VuePress and deployed via Netlify at the online address [https://docs.dongfeng.40huo.cn/](https://docs.dongfeng.40huo.cn/).
 
 ## 贡献 Contribution
 
