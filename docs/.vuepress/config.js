@@ -1,5 +1,5 @@
 module.exports = ctx => ({
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", {rel: "icon", href: "/logo.png"}]],
   locales: {
     "/": {
       lang: "zh-CN",
@@ -26,9 +26,7 @@ module.exports = ctx => ({
         lastUpdated: "上次更新",
         nav: require("./nav/zh"),
         sidebar: {
-          "/api/": getApiSidebar(),
           "/guide/": getGuideSidebar("指南", "深入"),
-          "/theme/": getThemeSidebar("主题", "介绍"),
         },
       },
       "/en/": {
@@ -39,9 +37,7 @@ module.exports = ctx => ({
         lastUpdated: "Last Updated",
         nav: require("./nav/en"),
         sidebar: {
-          "/en/api/": getApiSidebar(),
           "/en/guide/": getGuideSidebar("Guide", "Advanced"),
-          "/en/theme/": getThemeSidebar("Theme", "Introduction"),
         },
       },
     },
@@ -56,7 +52,7 @@ module.exports = ctx => ({
         notFoundPath: "/404.html",
       },
     ],
-    ["vuepress-plugin-mathjax", { target: "svg", macros: { "*": "\\times" } }],
+    ["vuepress-plugin-mathjax", {target: "svg", macros: {"*": "\\times"}}],
     "vuepress-plugin-nprogress",
     [
       "vuepress-plugin-medium-zoom",
@@ -74,10 +70,6 @@ module.exports = ctx => ({
     ["@vuepress/back-to-top"],
   ],
 });
-
-function getApiSidebar() {
-  return ["cli", "node"];
-}
 
 function getGuideSidebar(groupA, groupB) {
   return [
@@ -100,24 +92,6 @@ function getGuideSidebar(groupA, groupB) {
       title: groupB,
       collapsable: false,
       // children: ["frontmatter", "permalinks", "markdown-slot", "global-computed"],
-    },
-  ];
-}
-
-function getThemeSidebar(groupA, introductionA) {
-  return [
-    {
-      title: groupA,
-      collapsable: false,
-      sidebarDepth: 2,
-      // children: [
-      //   ["", introductionA],
-      //   "using-a-theme",
-      //   "writing-a-theme",
-      //   "option-api",
-      //   "default-theme-config",
-      //   "inheritance",
-      // ],
     },
   ];
 }

@@ -4,34 +4,50 @@ module.exports = [
     link: "/en/guide/",
   },
   {
-    text: "Config Reference",
-    link: "/en/config/",
-  },
-  {
-    text: "Plugin",
-    link: "/en/plugin/",
-  },
-  {
-    text: "Theme",
-    link: "/en/theme/",
+    text: "Components",
+    ariaLabel: "Components",
+    items: [
+      {
+        text: "Web",
+        items: [
+          {
+            text: "Spaceport",
+            link: "/en/components/spaceport/",
+          },
+          {
+            text: "Spaceport FE",
+            link: "/en/components/spaceport-fe/",
+          }
+        ]
+      },
+      {
+        text: "Server-side",
+        items: [
+          {
+            text: "Overwatch",
+            link: "/en/components/overwatch/",
+          }
+        ]
+      },
+      {
+        text: "Workers",
+        items: [
+          {
+            text: "Scout",
+            link: "/en/components/scout/",
+          },
+          {
+            text: "Missile",
+            link: "/en/components/missile",
+          }
+        ]
+      }
+    ]
   },
   {
     text: "Learn More",
     ariaLabel: "Learn More",
     items: [
-      {
-        text: "API",
-        items: [
-          {
-            text: "CLI",
-            link: "/en/api/cli.html",
-          },
-          {
-            text: "Node",
-            link: "/en/api/node.html",
-          },
-        ],
-      },
       {
         text: "Contributing Guide",
         items: [
@@ -47,12 +63,21 @@ module.exports = [
             text: "FAQ",
             link: "/en/faq/",
           },
-          {
-            text: "Glossary",
-            link: "/en/miscellaneous/glossary.html",
-          },
         ],
       },
+      {
+        text: "Miscellaneous",
+        items: [
+          {
+            text: "License",
+            link: "/license/",
+          },
+          {
+            text: "Release Notes",
+            link: "/en/release-notes/",
+          }
+        ]
+      }
     ],
   },
 ];

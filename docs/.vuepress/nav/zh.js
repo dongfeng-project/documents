@@ -4,39 +4,55 @@ module.exports = [
     link: "/guide/",
   },
   {
-    text: "配置",
-    link: "/config/",
-  },
-  {
-    text: "插件",
-    link: "/plugin/",
-  },
-  {
-    text: "主题",
-    link: "/theme/",
+    text: "组件",
+    ariaLabel: "组件",
+    items: [
+      {
+        text: "Web",
+        items: [
+          {
+            text: "Spaceport",
+            link: "/components/spaceport/",
+          },
+          {
+            text: "Spaceport FE",
+            link: "/components/spaceport-fe/",
+          }
+        ]
+      },
+      {
+        text: "服务端",
+        items: [
+          {
+            text: "Overwatch",
+            link: "/components/overwatch/",
+          }
+        ]
+      },
+      {
+        text: "Workers",
+        items: [
+          {
+            text: "Scout",
+            link: "/components/scout/",
+          },
+          {
+            text: "Missile",
+            link: "/components/missile",
+          }
+        ]
+      }
+    ]
   },
   {
     text: "了解更多",
     ariaLabel: "了解更多",
     items: [
       {
-        text: "API",
-        items: [
-          {
-            text: "CLI",
-            link: "/api/cli.html",
-          },
-          {
-            text: "Node",
-            link: "/api/node.html",
-          },
-        ],
-      },
-      {
         text: "开发指南",
         items: [
           {
-            text: "Local Development",
+            text: "本地开发",
             link: "/miscellaneous/local-development.html",
           },
           {
@@ -47,12 +63,21 @@ module.exports = [
             text: "FAQ",
             link: "/faq/",
           },
-          {
-            text: "术语",
-            link: "/miscellaneous/glossary.html",
-          },
         ],
       },
+      {
+        text: "其他",
+        items: [
+          {
+            text: "开源许可",
+            link: "/license/",
+          },
+          {
+            text: "Release Notes",
+            link: "/release-notes/",
+          }
+        ]
+      }
     ],
   },
 ];
