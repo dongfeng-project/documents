@@ -34,7 +34,7 @@ module.exports = [
           },
           {
             text: "Missile",
-            link: "/components/missile",
+            link: "/components/missile/",
           },
         ],
       },
@@ -49,15 +49,15 @@ module.exports = [
         items: [
           {
             text: "本地开发",
-            link: "/misc/local-development",
+            link: "/misc/local-development/",
           },
           {
             text: "设计理念",
-            link: "/misc/design-concepts",
+            link: "/misc/design-concepts/",
           },
           {
             text: "FAQ",
-            link: "/misc/faq",
+            link: "/misc/faq/",
           },
         ],
       },
@@ -66,11 +66,11 @@ module.exports = [
         items: [
           {
             text: "开源许可",
-            link: "/misc/license",
+            link: "/misc/license/",
           },
           {
             text: "Release Notes",
-            link: "/misc/release-notes",
+            link: "/misc/release-notes/",
           },
         ],
       },

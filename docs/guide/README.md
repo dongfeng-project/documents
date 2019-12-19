@@ -4,9 +4,9 @@
 
 [东风](/) 由多个相对独立的功能组件组成，包括
 
-- [Web 控制面板 Spaceport](https://github.com/dongfeng-project/spaceport) 及其 [前端工程 Spaceport-FE](https://github.com/dongfeng-project/spaceport-fe)
+- [Web 控制中心 Spaceport](https://github.com/dongfeng-project/spaceport) 及其 [前端工程 Spaceport-FE](https://github.com/dongfeng-project/spaceport-fe)
 - [基础组件 Base](https://github.com/dongfeng-project/base)，提供共用的常量及常用工具类
-- [通信组件 Overwatch](https://github.com/dongfeng-project/overwatch)，在整个项目中起到类似分布式 Server 的功能，用于上报扫描任务结果、监控 Worker 运行状态、下发命令等
+- [监控组件 Overwatch](https://github.com/dongfeng-project/overwatch)，在整个项目中起到类似分布式 Server 的功能，用于上报扫描任务结果、监控 Worker 运行状态、下发命令等
 - [探测组件 Scout](https://github.com/dongfeng-project/scout)，包含常见的子域名收集、主机存活扫描、端口探测、爬虫等功能
 - [扫描组件 Missile](https://github.com/dongfeng-project/missile)，包含各类主机、Web 漏洞插件
 
