@@ -14,11 +14,7 @@ module.exports = [
             text: "Spaceport",
             link: "/components/spaceport/",
           },
-          {
-            text: "Spaceport FE",
-            link: "/components/spaceport-fe/",
-          }
-        ]
+        ],
       },
       {
         text: "服务端",
@@ -26,8 +22,8 @@ module.exports = [
           {
             text: "Overwatch",
             link: "/components/overwatch/",
-          }
-        ]
+          },
+        ],
       },
       {
         text: "Workers",
@@ -39,10 +35,10 @@ module.exports = [
           {
             text: "Missile",
             link: "/components/missile",
-          }
-        ]
-      }
-    ]
+          },
+        ],
+      },
+    ],
   },
   {
     text: "了解更多",
@@ -53,15 +49,15 @@ module.exports = [
         items: [
           {
             text: "本地开发",
-            link: "/miscellaneous/local-development.html",
+            link: "/misc/local-development",
           },
           {
             text: "设计理念",
-            link: "/miscellaneous/design-concepts.html",
+            link: "/misc/design-concepts",
           },
           {
             text: "FAQ",
-            link: "/faq/",
+            link: "/misc/faq",
           },
         ],
       },
@@ -70,14 +66,14 @@ module.exports = [
         items: [
           {
             text: "开源许可",
-            link: "/license/",
+            link: "/misc/license",
           },
           {
             text: "Release Notes",
-            link: "/release-notes/",
-          }
-        ]
-      }
+            link: "/misc/release-notes",
+          },
+        ],
+      },
     ],
   },
 ];

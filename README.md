@@ -37,6 +37,6 @@ The document was generated using VuePress and deployed via Netlify at the online
 
 ## 开源许可 License
 
-[GNU Affero General Public License v3.0 only](https://github.com/dongfeng-project/documents/blob/master/LICENSE)
+[GNU Affero General Public License v3.0](https://github.com/dongfeng-project/documents/blob/master/LICENSE)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdongfeng-project%2Fdocuments.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdongfeng-project%2Fdocuments?ref=badge_large)

@@ -1,5 +1,5 @@
 module.exports = ctx => ({
-  head: [["link", {rel: "icon", href: "/logo.png"}]],
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
   locales: {
     "/": {
       lang: "zh-CN",
@@ -52,7 +52,7 @@ module.exports = ctx => ({
         notFoundPath: "/404.html",
       },
     ],
-    ["vuepress-plugin-mathjax", {target: "svg", macros: {"*": "\\times"}}],
+    ["vuepress-plugin-mathjax", { target: "svg", macros: { "*": "\\times" } }],
     "vuepress-plugin-nprogress",
     [
       "vuepress-plugin-medium-zoom",
@@ -80,12 +80,6 @@ function getGuideSidebar(groupA, groupB) {
         "",
         "getting-started",
         "structure",
-        // 'basic-config',
-        // 'assets',
-        // 'markdown',
-        // 'using-vue',
-        // 'i18n',
-        // 'deploy',
       ],
     },
     {

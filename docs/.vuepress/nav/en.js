@@ -14,11 +14,7 @@ module.exports = [
             text: "Spaceport",
             link: "/en/components/spaceport/",
           },
-          {
-            text: "Spaceport FE",
-            link: "/en/components/spaceport-fe/",
-          }
-        ]
+        ],
       },
       {
         text: "Server-side",
@@ -26,8 +22,8 @@ module.exports = [
           {
             text: "Overwatch",
             link: "/en/components/overwatch/",
-          }
-        ]
+          },
+        ],
       },
       {
         text: "Workers",
@@ -39,10 +35,10 @@ module.exports = [
           {
             text: "Missile",
             link: "/en/components/missile",
-          }
-        ]
-      }
-    ]
+          },
+        ],
+      },
+    ],
   },
   {
     text: "Learn More",
@@ -75,9 +71,9 @@ module.exports = [
           {
             text: "Release Notes",
             link: "/en/release-notes/",
-          }
-        ]
-      }
+          },
+        ],
+      },
     ],
   },
 ];
